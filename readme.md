@@ -6,7 +6,7 @@ Some possible improvements:
 * Adding some visual representation of recorded volume
 * Using flexbox and/or structuring the css better to make it more flexible
 
-===
+=====
 
 The online tuner based on web audio api: [https://qiuxiang.github.io/tuner/app](https://qiuxiang.github.io/tuner/app/).
 
