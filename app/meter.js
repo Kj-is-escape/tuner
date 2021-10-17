@@ -5,6 +5,7 @@
 const Meter = function(selector) {
   this.$root = document.querySelector(selector)
   this.$pointer = this.$root.querySelector('.meter-pointer')
+  this.$scaleContainer = this.$root.querySelector('.meter-scale-container')
   this.init()
 }
 
@@ -16,7 +17,7 @@ Meter.prototype.init = function() {
     if (i % 5 === 0) {
       $scale.classList.add('meter-scale-strong')
     }
-    this.$root.appendChild($scale)
+    this.$scaleContainer.appendChild($scale)
   }
 }
 
